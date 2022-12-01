@@ -32,15 +32,15 @@
 - Создала и активировала виртуальное пространство в Anaconda Prompt,  также установила требуемые пакеты.
 - Запустила обучение Ml-Agent и увидела сообщение о считывании yaml-файла, что говорит о правильной установке:
 
-![Image alt](https://github.com/cutterror/DA-in_gameDev-lab4/blob/main/images/num1/OR/1.png)
+![Image alt](https://github.com/cutterror/DA-in_gameDev-lab5/blob/main/images/1.png)
 
 - Для повышения скорости обучения увеличила количество TargetAreaEconomic до 24х:
 
-![Image alt](https://github.com/cutterror/DA-in_gameDev-lab4/blob/main/images/num1/OR/2.png)
+![Image alt](https://github.com/cutterror/DA-in_gameDev-lab5/blob/main/images/2.png)
 
 - Построила графики для оценки результатов обучения, используя TensorBoard:
 
-![Image alt](https://github.com/cutterror/DA-in_gameDev-lab4/blob/main/images/num1/OR/3.png)
+![Image alt](https://github.com/cutterror/DA-in_gameDev-lab5/blob/main/images/3.png)
 
 
 ## Задание 2
