@@ -51,21 +51,33 @@
 
 - Графики при изначальных значениях параметров:
 
+![Image alt](https://github.com/cutterror/DA-in_gameDev-lab5/blob/main/images/base/1.png)
+![Image alt](https://github.com/cutterror/DA-in_gameDev-lab5/blob/main/images/base/2.png)
 
 - Увеличила значение learning_rate до 10.0e-4. Из третьей лабораторной работы знаю, что данный параметр отвечает за начальную скорость обучения и при слишком больших значениях обучение будет нестабильно и вознаграждение не будет постоянно увеличиваться
 
+![Image alt](https://github.com/cutterror/DA-in_gameDev-lab5/blob/main/images/learning_rate%2010e-4/1.png)
+![Image alt](https://github.com/cutterror/DA-in_gameDev-lab5/blob/main/images/learning_rate%2010e-4/2.png)
 
 - Увеличила значение beta до 10.0e-2. Данный параметр отвечает за "случайность" политики.
 
+![Image alt](https://github.com/cutterror/DA-in_gameDev-lab5/blob/main/images/beta%2010e-2/1.png)
+![Image alt](https://github.com/cutterror/DA-in_gameDev-lab5/blob/main/images/beta%2010e-2/2.png)
 
 - Увеличила значение epsilon до 0.8. Отвечает за то, насколько быстро политика может развиваться во время обучения.
 
+![Image alt](https://github.com/cutterror/DA-in_gameDev-lab5/blob/main/images/epsilon%200.8/1.png)
+![Image alt](https://github.com/cutterror/DA-in_gameDev-lab5/blob/main/images/epsilon%200.8/2.png)
 
 - Уменьшила значение lambd до 0.2. Отвечает за то, насколько агент полагается на свою текущую оценку стоимости при вычислении обновленной оценки стоимости.
 
+![Image alt](https://github.com/cutterror/DA-in_gameDev-lab5/blob/main/images/lambd%200.2/1.png)
+![Image alt](https://github.com/cutterror/DA-in_gameDev-lab5/blob/main/images/lambd%200.2/2.png)
 
 - Увеличила значение num_epoch до 10. Отвечает за количество проходов через буфер опыта при выполнении оптимизации градиентного спуска.
 
+![Image alt](https://github.com/cutterror/DA-in_gameDev-lab5/blob/main/images/num%20epoch%2010/1.png)
+![Image alt](https://github.com/cutterror/DA-in_gameDev-lab5/blob/main/images/num%20epoch%2010/2.png)
 
 ## Задание 3
 ### Описать результаты, выведенные в TensorBorder.
