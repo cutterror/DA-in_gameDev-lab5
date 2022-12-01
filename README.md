@@ -34,10 +34,13 @@
 
 ![Image alt](https://github.com/cutterror/DA-in_gameDev-lab4/blob/main/images/num1/OR/1.png)
 
-- Изначально в проекте было создано 12 TargetAreaEconomic, что достаточно для средней скорости обучения, не стала увеличивать их количество.
-- Построила графики для оценки результатов обучения, используя TensorBoard:
+- Для повышения скорости обучения увеличила количество TargetAreaEconomic до 24х:
 
 ![Image alt](https://github.com/cutterror/DA-in_gameDev-lab4/blob/main/images/num1/OR/2.png)
+
+- Построила графики для оценки результатов обучения, используя TensorBoard:
+
+![Image alt](https://github.com/cutterror/DA-in_gameDev-lab4/blob/main/images/num1/OR/3.png)
 
 
 ## Задание 2
