@@ -59,22 +59,22 @@
 ![Image alt](https://github.com/cutterror/DA-in_gameDev-lab5/blob/main/images/learning_rate%2010e-4/1.png)
 ![Image alt](https://github.com/cutterror/DA-in_gameDev-lab5/blob/main/images/learning_rate%2010e-4/2.png)
 
-- Увеличила значение beta до 10.0e-2. Данный параметр отвечает за "случайность" политики. Entropy резко растёт вверх, а Cumulative reward неизменно. При этом, насколько можно судить из графика Learning Rate, скорость обучения не снизилась.
+- Увеличила значение beta до 10.0e-2. Данный параметр отвечает за "случайность" политики. Entropy резко растёт вверх, а Cumulative reward неизменно.
 
 ![Image alt](https://github.com/cutterror/DA-in_gameDev-lab5/blob/main/images/beta%2010e-2/1.png)
 ![Image alt](https://github.com/cutterror/DA-in_gameDev-lab5/blob/main/images/beta%2010e-2/2.png)
 
-- Увеличила значение epsilon до 0.8. Отвечает за то, насколько быстро политика может развиваться во время обучения.
+- Увеличила значение epsilon до 0.8. Отвечает за то, насколько быстро политика может развиваться во время обучения. Entropy резко растёт вверх.
 
 ![Image alt](https://github.com/cutterror/DA-in_gameDev-lab5/blob/main/images/epsilon%200.8/1.png)
 ![Image alt](https://github.com/cutterror/DA-in_gameDev-lab5/blob/main/images/epsilon%200.8/2.png)
 
-- Уменьшила значение lambd до 0.2. Отвечает за то, насколько агент полагается на свою текущую оценку стоимости при вычислении обновленной оценки стоимости.
+- Уменьшила значение lambd до 0.2. Отвечает за то, насколько агент полагается на свою текущую оценку стоимости при вычислении обновленной оценки стоимости. График Cumulative reward похож на параболу, обучение не стабильно.
 
 ![Image alt](https://github.com/cutterror/DA-in_gameDev-lab5/blob/main/images/lambd%200.2/1.png)
 ![Image alt](https://github.com/cutterror/DA-in_gameDev-lab5/blob/main/images/lambd%200.2/2.png)
 
-- Увеличила значение num_epoch до 10. Отвечает за количество проходов через буфер опыта при выполнении оптимизации градиентного спуска.
+- Увеличила значение num_epoch до 10. Отвечает за количество проходов через буфер опыта при выполнении оптимизации градиентного спуска. График Cumulative reward опускается практически до отрицательных значений, медленно растёт. Обучение не стабильно.
 
 ![Image alt](https://github.com/cutterror/DA-in_gameDev-lab5/blob/main/images/num%20epoch%2010/1.png)
 ![Image alt](https://github.com/cutterror/DA-in_gameDev-lab5/blob/main/images/num%20epoch%2010/2.png)
